@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+swagger:
+  base-package: com.bdilab.storage.controller
+  enable: true
+  title: Smart Chat Backend
+  description: Backend
+  service-url: http://${java.rmi.server.hostname}/${server.port}
+  version: v2.1
+  license: NOT OPEN SOURCE
+  license-url: do not have

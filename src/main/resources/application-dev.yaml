@@ -1,0 +1,12 @@
+server:
+  port: 9910
+document:
+  path:
+    base:
+      pdf: /Users/treasures_y/Documents/code/bdilab/DocumentStorage/DocumentStorage/src/main/resources/Documents/pdf
+      word: /Users/treasures_y/Documents/code/bdilab/DocumentStorage/DocumentStorage/src/main/resources/Documents/word
+
+
+document-qa-server:
+  endpoint:
+    add-report: http://121.36.223.71:6010/api/v2/add_report
